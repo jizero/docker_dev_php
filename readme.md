@@ -8,13 +8,11 @@
 
 # Restful API
 
+* **하나의 회원 데이터 출력 API**  GET /users/:no
+* **회원 데이터 생성(회원 가입) API**   POST /users
 
 ### Request
 
-
-
-* **하나의 회원 데이터 출력 API**  GET /users/:no
-* **회원 데이터 생성(회원 가입) API**   POST /users
     `POST /users`
 
     email:jizero234@mail.com <br />
@@ -25,11 +23,6 @@
     
 * **회원 데이터 수정 API** PUT users/:no
 * **회원 데이터 삭제 API** DELETE  users/:no
-
-
-
-
-
 
 
 
