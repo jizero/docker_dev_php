@@ -1,0 +1,6 @@
+#=> VSCode
+.vscode/*
+logs/ 
+
+#==== composer ====
+src/vendor
