@@ -14,6 +14,8 @@
 ### Request
 
     `POST /users`
+    
+    application/x-www-form-urlencoded
 
     email:jizero234@mail.com
     password:test123 
