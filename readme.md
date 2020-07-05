@@ -4,7 +4,7 @@
 
 ## Run the app
 
-  docker/docker-composer up
+   docker/docker-composer up
 
 # Restful API
 
