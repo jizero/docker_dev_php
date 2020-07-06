@@ -8,6 +8,8 @@
     cd docker
     docker-composer up
 
+    localhost 접속 (port : 80)
+    
 # Restful API
 
 * **하나의 회원 데이터 출력 API**  GET /users/:no
