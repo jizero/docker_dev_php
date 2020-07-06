@@ -1,10 +1,12 @@
 ## Install
-
+    
+    cd src
     composer install
 
 ## Run the app
-
-    docker/docker-composer up
+    
+    cd docker
+    docker-composer up
 
 # Restful API
 
