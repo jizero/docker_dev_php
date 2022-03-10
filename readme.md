@@ -1,3 +1,5 @@
+Docker + PHP   Local env
+
 ## Install
     
     cd src
@@ -8,12 +10,14 @@
     cd docker
     docker-composer up
 
-    localhost 접속 (port : 80)
+    localhost Connect (port : 80)
     
 # Restful API
 
-* **하나의 회원 데이터 출력 API**  GET /users/:no
-* **회원 데이터 생성(회원 가입) API**   POST /users
+* Get User API**  GET /users/:no
+* Insert User  API**   POST /users
+* Modify API** PUT users/:no
+* Delete API** DELETE  users/:no
 
 ### Request
 
@@ -27,13 +31,10 @@
     nickname:ddd2
     password_confirmation:test123
     
-* **회원 데이터 수정 API** PUT users/:no
-* **회원 데이터 삭제 API** DELETE  users/:no
 
 
 
-
-### 참고 URL 
+###  URL 
 [https://github.com/damianopetrungaro/slim-boilerplate](https://github.com/damianopetrungaro/slim-boilerplate)
 
 
